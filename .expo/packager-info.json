@@ -1,8 +1,8 @@
 {
   "devToolsPort": 19002,
   "expoServerPort": 19000,
-  "packagerPort": 19001,
-  "packagerPid": 9726,
+  "packagerPort": null,
+  "packagerPid": null,
   "expoServerNgrokUrl": "https://ta-kjb.bjurisic.hrca-faks.exp.direct",
   "packagerNgrokUrl": "https://packager.ta-kjb.bjurisic.hrca-faks.exp.direct",
   "ngrokPid": 9737
