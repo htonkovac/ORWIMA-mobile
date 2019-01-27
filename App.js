@@ -28,7 +28,7 @@ export default class App extends React.Component {
       'Roboto': require('native-base/Fonts/Roboto.ttf'),
       'Roboto_medium': require('native-base/Fonts/Roboto_medium.ttf'),
     });
-    this.setState({loading: false})
+    this.setState({ loading: false })
     const location = await this._getLocationAsync()
     //const baseUrl = 
     const url = 'https://snnnbb0pm3.execute-api.eu-central-1.amazonaws.com/v1/locations/?longitude='
@@ -103,7 +103,7 @@ export default class App extends React.Component {
       renderItem={
         ({ item }) => (
           <View style={{
-         padding: 5
+            padding: 5
           }}>
             <Card style={{
               flexDirection: 'row',
