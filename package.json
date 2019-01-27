@@ -1,0 +1,17 @@
+{
+  "name": "hrca-faks",
+  "version": "0.0.0",
+  "description": "No description",
+  "author": null,
+  "private": true,
+  "main": "node_modules/expo/AppEntry.js",
+  "dependencies": {
+    "@expo/vector-icons": "^9.0.0",
+    "@exponent/vector-icons": "^4.0.0",
+    "expo": "^32.0.0",
+    "native-base": "^2.10.0",
+    "react": "16.5.0",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-32.0.0.tar.gz",
+    "react-native-paper": "2.2.8"
+  }
+}
