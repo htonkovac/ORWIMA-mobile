@@ -31,11 +31,11 @@ export default class App extends React.Component {
     this.setState({ loading: false })
     const location = await this._getLocationAsync()
     //const baseUrl = 
-    const url = 'https://snnnbb0pm3.execute-api.eu-central-1.amazonaws.com/v1/locations/?longitude='
+    const url = 'http://34.76.123.44/?longitude='
       + location.coords.longitude
       + '&latitude='
       + location.coords.latitude
-      + '&radius=10000&fbclid=IwAR1XAKO1vNTkzhWKhukQI3-r1FC8deU_oNmBjXe1YfvCmJ1Z8ThRD0jWBrY'
+      + '&radius=10000'
     console.log(url)
     const response = await fetch(url);
     const data = JSON.parse(response._bodyInit)

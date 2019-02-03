@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "hrca-faks",
+    "name": "Moja Hrvatska",
     "description": "No description",
     "slug": "snack-rkvh3PimE",
     "privacy": "unlisted",
@@ -8,13 +8,13 @@
     "version": "1.0.0",
     "orientation": "portrait",
     "primaryColor": "#cccccc",
-    "icon": "https://d1wp6m56sqw74a.cloudfront.net/~assets/c9aa1be8a6a6fe81e20c3ac4106a2ebc",
+    "icon": "https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/042012/croatia_coat-converted.png?itok=_i2bosEe",
     "loading": {
-      "icon": "https://d1wp6m56sqw74a.cloudfront.net/~assets/c9aa1be8a6a6fe81e20c3ac4106a2ebc",
+      "icon": "https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/042012/croatia_coat-converted.png?itok=_i2bosEe",
       "hideExponentText": false
     },
     "splash": {
-      "image": "./assets/croatia-flag.png"
+      "image": "https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/042012/croatia_coat-converted.png?itok=_i2bosEe"
     },
     "packagerOpts": {
       "assetExts": [
@@ -26,6 +26,14 @@
     },
     "ios": {
       "supportsTablet": true
+    },
+    "android": {
+      "package": "com.hrvoje.mojahrvacka",
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyCVE-eHeu9CmdEgS3M0j8bmJUMiLYbRNdk"
+        }
+      }
     }
   }
 }
